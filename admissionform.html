@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title> Admission form </title>
+	</head>
+	
+	<body style="background-color:lightgreen;color:white;">
+	
+	<form>
+	
+		<p style="text-align:center;"> <strong> STUDENT REGISTRATION FORM FOR LOYOLA COLLEGE </strong> </p>
+		
+		<p> Applicant's Full Name *:</p>
+		<input placeholder="First" name="fname" required /> <input placeholder="Middle" name="mname"/> <input placeholder="Last" name="lname" required />
+		
+		<p>Father's Name:</p>
+		<input placeholder="First" name="fname" required /> <input placeholder="Middle" name="mname"/> <input placeholder="Last" name="lname" required />
+
+		<p>Mother's Name:</p>
+		<input placeholder="First" name="fname" required /> <input placeholder="Middle" name="mname"/> <input placeholder="Last" name="lname" required />
+		
+		<p> Guardian's Name: </p>
+		<input placeholder="First" name="fname" /> <input placeholder="Middle" name="mname"/> <input placeholder="Last" name="lname" />
+		
+		<table>
+			<thead></thead>
+			<tbody>
+				<tr>
+					<td>
+						<p required> Email id * :</p>
+						<input type="email" name="email" placeholder="Example@abc.com"  required />
+					</td>
+					<td>
+						<p required> Contact Number * :</p>
+						<input type="number" name="phone" required />
+					</td>
+					<td>
+						<p> Alternate Number :</p>
+						<input type="number" name="alternatenumber" />
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<table>
+			<thead></thead>
+			<tbody>
+				<tr>
+					<td>
+						<p> 
+							Gender * :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="gender" value="m" required />Male
+						              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="gender" value="f" required />Female
+									  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="radio" name="gender" value="o" required />Other
+						</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<table>
+			<thead></thead>
+			<tbody>
+				<tr>
+					<td>
+						<span>
+								Date of Birth * : <input type="date" name="dob" required />
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		
+		<p> Address * : </p>
+		<span>
+			H.No. &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input name="housenumber" required />
+			Street Name/Locatlity : <input type="text" name="street"required />
+		</span>
+		<span>
+			Landmark (Optional) : <input type="text" name="landmark"/>
+			Town/City :&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <input type="text" name="city" required />
+		</span>
+		<span>
+		<br/>
+			Pincode : &nbsp&nbsp&nbsp&nbsp<input type="number" name="pincode"required />
+			State : &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+			<select> 
+				<option selected > Choose State</option>
+				<option> Andhra Pradesh </option>
+				<option> Arunachal Pradesh </option>
+				<option> Assam </option>
+				<option> Delhi </option>
+				<option> Tamilnadu </option>
+				<option> Telangana </option>
+				<option> karnataka </option>
+			</select>
+		</span>
+		
+		<p>Hobbies : </p>
+		<span>
+			<input type="checkbox" name="games"/> Playing Games
+			<input type="checkbox" name="books"/> Reading Books
+			<input type="checkbox" name="music"/> Listening to Music
+		</span>
+		<span>
+			<br/><input type="checkbox" name="drawing"/> Drawing
+			<input type="checkbox" name="singing"/> singing
+			<input type="checkbox" name="dancing"/> Dancing
+			<input type="checkbox" name="others"/> Others <input />
+		</span>
+		
+		<p> Highest Educational Qualification * : </p>
+		<input type="radio" name="qualification" value="10th" required /> High School ( 10th Class )
+		<br/><input type="radio" name="qualification" value="inter" required /> Intermediate ( 12th Class )
+		<br/><input type="radio" name="qualification" value="degree" required /> Degree
+		<br/><input type="radio" name="qualification" value="Btech" required /> B.Tech
+		<br/><input type="radio" name="qualification" value="pg" required /> PG
+		<br><input type="radio" name="qualification" value="Phd" required /> Phd
+		
+		<p> Course Applied For * :</p>
+		<input type="radio" name="course" value="inter" required /> Intermediate ( 12th Class )
+		<br/><input type="radio" name="course" value="degree" required /> Degree
+		<br/><input type="radio" name="course" value="Btech" required /> B.Tech
+		<br/><input type="radio" name="course" value="MBA" required /> MBA
+		<br/><input type="radio" name="course" value="pg" required /> PG
+		<br><input type="radio" name="course" value="Phd" required /> Phd
+		
+		<p> Why did you choose our college ? </p>
+		<textarea name="comments" placeholder="Enter your comments"></textarea>
+		
+		<span>
+		<br/>Please upload your image * (less than 20MB):
+		<input type="file" name="photo" required />
+		</span>
+		
+		<span>
+		<br/>Please upload your Signature * (less than 5MB):
+		<input type="file" name="sign" required />
+		</span>
+		
+		<p> <input type="checkbox" required /> I hereby declare that all the information given above are complete and true to the best of my knowledge. </P>
+	
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp 
+		<input type="submit"/>
+		<input type="reset"/>
+		
+		
+	</form>
+		
+	</body>
+</html>
